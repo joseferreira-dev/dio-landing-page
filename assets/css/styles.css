@@ -2,14 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 html {
-    font-family: 'Haleway', sans-serif;
+    font-family: 'Raleway';
     font-size: 16px;
     box-sizing: border-box;
+    background-color: #000000;
 }
 
 .banner {
-    background: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png'), #000000;
-    border-bottom: 2px solid #33A8DB;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+    border-bottom: 1px solid #33A8DB;
 }
 
 .banner-content {
@@ -49,7 +50,8 @@ html {
     color: #FFFFFF;
     font-size: 1.25rem;
     font-weight: 400;
-    width: 31.875rem;
+    line-height: 1.4375rem;
+    width: 32.5rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
@@ -68,6 +70,52 @@ html {
     border-image-slice: 1;
 }
 
+main {
+    text-align: center;
+}
 
+#course-content {
+    padding-top: 7.375rem;
+    padding-bottom: 6rem;
+    border-bottom: 1px solid #33A8DB;
+}
 
+#course-content h2 {
+    color: #33A8DB;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1.5rem;
+}
 
+#course-content p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1875rem;
+    width: 49.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#course-content .module {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 33.4375rem;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: #252525;
+    border: 1px solid #33A8DB;
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 57px;
+}
+
+#course-content .module span {
+    color: #33A8DB;
+}
