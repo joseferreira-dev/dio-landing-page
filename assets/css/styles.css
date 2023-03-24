@@ -1,0 +1,73 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    font-family: 'Haleway', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png'), #000000;
+    border-bottom: 2px solid #33A8DB;
+}
+
+.banner-content {
+    padding-top: 3.5rem;
+    padding-bottom: 4.6875rem;
+    text-align: center;
+}
+
+.banner-content .logo {
+    margin-right: auto;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    width: 16.75rem;
+    height: 16.75rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+.banner-content .logo img {
+    margin-top: 1.6875rem;
+}
+
+.banner-content h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 2.9375rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.banner-content p {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 400;
+    width: 31.875rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.banner-content button {
+    color: #31A8DD;;
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 20.375rem;
+    height: 3.5625rem;
+    background: none;
+    border-image: linear-gradient(to bottom, #3BA1CD, #1572B7);
+    border-image-width: 2px;
+    border-image-slice: 1;
+}
+
+
+
+
