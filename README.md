@@ -1,3 +1,3 @@
 # Project Landing Page
 
-Desafio de projeto para o curso de Primeiros Passos com CSS, da Formação CSS Developer da DigitalInnovationOne. O objetivo do projeto foi exercitar as propriedades básicas de CSS desenvolvendo os estilos de uma landing page para o próprio curso.
+Design challenge for the First Steps with CSS course, from the CSS Developer Training by DigitalInnovationOne. The aim of the project was to exercise the basic CSS properties by developing the styles of a landing page for the course itself.
