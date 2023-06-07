@@ -1,0 +1,43 @@
+.title--small {
+  font-size: 1.5rem;
+}
+
+.title--medium {
+  font-size: 3.5rem;
+}
+
+.title--big {
+  font-size: 4.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .title--medium {
+    font-size: 3rem;
+  }
+
+  .title--big {
+    font-size: 4rem;
+  }
+}
+
+.text--medium {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text--big {
+  font-size: 1.25rem;
+}
+
+.text--bold {
+  font-weight: bold;
+}
+
+.text--primary {
+  color: var(--color-primary);
+}
+
+.text--white {
+  color: var(--color-white);
+}
+
