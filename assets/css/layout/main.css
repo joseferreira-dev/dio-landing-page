@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.main__texts {
+  max-width: 41rem;
+}
+
+.main__texts p {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.main__image {
+  max-width: 35rem;
+}
