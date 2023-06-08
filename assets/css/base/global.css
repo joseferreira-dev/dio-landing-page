@@ -3,4 +3,11 @@
 :root {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 16px;
+
+  --color-primary: #C797FF;
+  --color-white: #FFFFFF;
+  --color-black: #191A23;
+  --color-gray-light: #F3F3F3
+  --color-gray-dark: #292A32;
+  --color-body-background: #FFFFFF;
 }

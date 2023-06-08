@@ -1,0 +1,26 @@
+/* BASE STYLES */
+@import url('./base/reset.css');
+@import url('./base/global.css');
+@import url('./base/texts.css');
+
+/* LAYOUT STYLES */
+@import url('./layout/header.css');
+
+/* MODULES STYLES*/
+@import url('./modules/button.css');
+
+body {
+  background-color: var(--color-body-background);
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.hidden {
+  display: none;
+}

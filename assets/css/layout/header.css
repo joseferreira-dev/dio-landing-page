@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
+.header__logo {
+  width: 7rem;
+}
+
+.header__nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header__nav a {
+  color: var(--color-black);
+  border-radius: .25rem;
+  padding: .125rem .25rem;
+  font-size: 1.25rem;
+  transition: .4s;
+}
+
+.header__nav a:hover {
+  background-color: var(--color-primary);
+}
