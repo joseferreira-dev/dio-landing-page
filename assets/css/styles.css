@@ -6,6 +6,7 @@
 /* LAYOUT STYLES */
 @import url('./layout/header.css');
 @import url('./layout/main.css');
+@import url('./layout/section.css');
 
 /* MODULES STYLES*/
 @import url('./modules/button.css');
